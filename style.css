@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+.title{
+    text-align: center;
+}
+
+.board {
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: auto;
+}
+
+.cell {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerTurn {
+    text-align: center;
+}
+
+.playerNames {
+    text-align: center;
+}
